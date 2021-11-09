@@ -9,16 +9,7 @@
     margin: auto; 
 }
 
-@media screen and (max-width: 800px) {
-    .container {
-        max-width: 780px;
-        
-    }
-    .col {
-        width: 100%;
-    }
 
-}
 .row {
     margin-top: 50px;
 }
@@ -41,4 +32,33 @@
     font-weight: bold;
     font-size: 14pt;
     cursor: pointer;
+}
+.gambar-pay{
+    background-image: url('img1.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.gambar-reload{
+    background-image: url('img2.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.gambar-get{
+    background-image: url('img3.png');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+@media screen and (max-width: 800px) {
+    .container {
+        max-width: 780px;
+        
+    }
+    .col {
+        width: 100%;
+    }
+
 }
